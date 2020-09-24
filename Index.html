@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="E:/ACTIVE WEB/Website/css/Style.css">
+	<link rel="stylesheet" href="E:/ACTIVE WEB/Website/pagePiling/jquery.pagepiling.css">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div id="pagepiling" >
+		
+<div class="section home-area" id="home">
+	<div class="wrapper">
+		<nav>
+			<ul id="myMenu">
+				
+ <li data-menuanchor="home" class="active"  ><a href="#home">      Home      </a></li>
+ <li data-menuanchor="about" ><a href="#about">     About     </a></li>
+ <li data-menuanchor="portfolio" ><a href="#portfolio"> Portfolio </a></li>
+ <li data-menuanchor="services" ><a href="#services">  Services  </a></li>
+ <li data-menuanchor="contact" ><a href="#contact">   Contact   </a></li>
+
+			</ul>
+
+
+		</nav> 
+<div class="banner-area">
+	
+
+<h2>HELLO PEOPLE  <br> WELCOME TO MY WEBSITE </h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores provident eius, modi cupiditate aliquid eveniet, est, sint repellat expedita cumque enim ea ipsam excepturi. Eos ratione nulla magni voluptatum.</p>
+
+</div>
+
+	</div>
+
+</div>
+<div class="section about-area " id="about" >
+
+<div class="wrapper ">
+	
+<h1> THIS IS <span>Zeshan Zaman.</span> </h1>
+<h2> I AM A  <span class="type"></span>   </h2>
+
+
+
+</div>
+</div>
+
+
+
+<div class="section portfolio-area " id="portfolio" >
+<div class="wrapper">
+	
+	<h3>Some Of my WORKS  </h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga, voluptatibus alias, nulla sequi natus et facere perspiciatis eius nesciunt accusamus distinctio quas nemo repellendus quaerat sunt quasi unde. Vitae.</p>
+
+
+
+</div>
+
+</div>
+<div class="section services-area " id="services" >
+<div class="wrapper">
+	
+	<h3> Services I provide </h3>
+
+<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Est, autem? Optio autem provident at distinctio inventore corrupti quibusdam nam dolorum. Vel incidunt nulla odio libero, eaque, molestias maiores laudantium consectetur?</p>
+
+
+</div>
+
+</div>
+
+
+<div class="section contact-area " id="contact" >
+	<div class="wrapper">
+		
+<h3> Connect with me </h3>
+
+<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Est, autem? Vel incidunt nulla odio libero, eaque, molestias maiores laudantium consectetur?</p>
+
+<p>  <input  type="text" placeholder="Enter your Name" > </p>
+<p>  <input type="email" placeholder="Enter your Email" > </p>
+<p> <textarea id="go" cols="30" row="10" placeholder=""></textarea> </p>
+
+
+	</div>
+
+<a href="#" class="">
+	
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+SUBMIT
+</a>
+
+
+
+</div>
+
+	</div>
+
+
+
+<script type="text/javascript" src="E:/ACTIVE WEB/Website/jquery-3.5.1.min.js" ></script>
+
+<script type="text/javascript" src="E:/ACTIVE WEB/Website/pagePiling/dist/jquery.pagepiling.js" ></script>
+
+<script type="text/javascript" src="E:/ACTIVE WEB/Website/typed.js-master/lib/typed.js" ></script>
+
+
+
+
+<script type="" >
+
+
+
+  var typed3 = new Typed('.type', {
+    strings: [
+     'FREELANCER.',
+     'WEB DEVELOPER.',
+     'WEB PAGE DESGINER.', 
+     'GRAPHICS DESGINER.'],
+    typeSpeed: 55,
+    backSpeed: 53,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+     
+
+
+
+
+  var typed4 = new Typed('#go', {
+    strings: [ "What's on your Mind ?", ],
+    typeSpeed: 66,
+    backSpeed: 66,
+    attr: 'placeholder',
+    bindInputFocusEvents: true,
+    loop: true
+  });
+    
+
+
+
+
+
+
+
+
+	
+	$(document).ready(function() {
+ 	
+ $("#pagepiling").pagepiling({
+ 	  direction: 'vertical',
+ 	sectionsColor: ['#f2f2f2', 'white', '#7BAABE', 'salmon', '#03a0b0'],
+
+ anchors: ['home', 'about', 'portfolio', 'services', 'contact'],
+    menu: '#myMenu',
+     navigation: {
+            'textColor': '#000',
+            'bulletsColor': '#000',
+            'position': 'right',
+            'tooltips': ['Home', 'About', 'Portfolio', 'Services','Contact']
+        },
+
+}); 
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

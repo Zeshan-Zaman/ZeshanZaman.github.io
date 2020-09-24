@@ -1,0 +1,369 @@
+h3{
+font-family: 'Titillium Web', sans-serif;
+color: #fff;
+font-size: 48px;
+margin: 0;
+
+}
+
+p{
+
+font-family: 'Titillium Web', sans-serif;
+
+line-height: 30px;
+color: #fff;
+
+}
+
+nav {
+
+position: absolute; 
+top: 0;
+height: 50px;
+transform: translateX(700px);
+}
+
+nav ul { 
+
+
+list-style: none;
+padding: 0px;
+
+
+ }
+
+nav ul li { 
+    padding: 15px 20px; 
+    
+	display: inline-block; }
+
+nav ul li a{  
+ 
+
+
+text-decoration: none;
+color: black;
+font-family: 'Titillium Web', sans-serif;
+ letter-spacing: 1px;
+font-size: 17px;
+font-weight: bold
+ }
+
+
+.home-area{ 
+
+background-image: url(' E:/ACTIVE WEB/Website/IMG/div.jpg');
+
+background-repeat: no-repeat;
+-webkit-background-size: cover ;
+background-size:cover; 
+background-position: center center;  
+
+ 
+ }
+
+.home-area h2{ 
+color: #fff ;
+
+font-size: 50px;
+font-family: 'Titillium Web', sans-serif;
+margin: 0;
+
+
+}
+
+.wrapper{ 
+width: 1170px;
+margin: 0 auto;
+
+ }
+
+.banner-area p{ 
+padding: 0 60% 0 0;
+}
+
+
+
+.portfolio-area{
+
+
+background-repeat: no-repeat;
+-webkit-background-size: cover ;
+background-size:cover; 
+background-position: center center;  
+
+background-image: url('E:/ACTIVE WEB/Website/IMG/work.jpg')
+
+
+
+      }
+
+
+.services-area {
+
+
+background-repeat: no-repeat;
+-webkit-background-size: cover ;
+background-size:cover; 
+background-position: center center;  
+
+background-image: url('E:/ACTIVE WEB/Website/IMG/pexels.jpg')
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.contact-area input[type=text], .contact-area input[type=email]{
+
+width: 50%;
+height: 40px;
+padding: 0 20px;
+
+
+
+}
+ 
+.contact-area{ 
+background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-repeat: no-repeat;
+-webkit-background-size: cover ;
+background-size:cover; 
+background-position: center center;  
+
+
+ }
+
+.contact-area p{ width: 500px }
+
+
+.contact-area textarea{ 
+padding: 20px;
+width: 65%;
+height: 15vh;
+ }
+
+.contact-area a{ 
+position: relative;
+display: inline-block;
+padding: 10px 25px;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 4px;
+ transform: translateX(97px);
+ font-size: 20px;
+ overflow: hidden;
+ transition: 0.2s;
+ color: black;
+font-weight: bold;  
+font-family: 'Titillium Web', sans-serif;
+
+
+
+
+  }
+
+ .contact-area a:hover{ 
+
+background: #ea5e6f;
+color: #101010;
+font-weight: bold;
+box-shadow: 0 0 10px #ea5e6f, 0 0 40px #ea5e6f, 0 0 80px #ea5e6f;
+transition-delay: .9s;
+
+     }
+
+a span{ 
+	position: absolute;
+	display: block; }
+
+a span:nth-child(1){ 
+
+top: 0;
+left: -100%;
+width: 100%;
+height: 3px;
+background: linear-gradient(90deg,transparent,#ea5e6f);
+
+  	 }
+
+a:hover span:nth-child(1)
+{
+	left: 100%;
+	transition: 1s;
+}
+
+a span:nth-child(3){ 
+
+bottom: 0;
+right: -100%;
+width: 100%;
+height: 3px;
+background: linear-gradient(270deg,transparent,#ea5e6f);
+
+  	 }
+
+a:hover span:nth-child(3)
+{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+
+a span:nth-child(2){ 
+
+top:-100%;
+right: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(180deg,transparent,#ea5e6f);
+
+  	 }
+
+a:hover span:nth-child(2)
+{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+a span:nth-child(4){ 
+
+bottom:-100%;
+left: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(360deg,transparent,#ea5e6f);
+
+  	 }
+
+a:hover span:nth-child(4)
+{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+.about-area{ 
+
+
+background-image: url('E:/IMAGES/gee.jpg');
+
+
+
+background-repeat: no-repeat;
+-webkit-background-size: cover ;
+background-size:cover; 
+background-position: center center;  
+
+
+z-index: 1000;
+ }
+
+.about-area h1{ color: black ;}
+
+.about-area span{ color: salmon }
+
+
+.about area .wave{ position: absolute;
+bottom: 0;
+left: 0; height: 100%;}
+
+
+
+/*Responsive*/
+
+
+@media only screen and (min-width: 768px;)  (max-width: 991px;){
+
+.wrapper{  
+
+width: 90%;
+
+ }
+
+
+.contact-area input[type=text], .contact-area input[type=email]{
+
+width: 85%;
+
+height: 30px;
+}
+
+.contact-area textarea{
+
+width: 85%
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px;){
+
+.wrapper{  
+
+width: 90%;
+
+ }
+
+nav{
+
+display: none;
+
+}
+
+.home-area h2{
+
+	font-size: 25px;
+}
+h3{
+font-size: 30px;
+
+}
+
+.banner-area p{ 
+
+
+padding: 0 12% 0 0;
+ }
+
+.portfolio-area p ,.services-area p,.contact-area p{
+
+line-height: 20px;
+font-size: 13px;
+
+}
+
+.contact-area input[type=text], .contact-area input[type=email]{
+
+width: 85%;
+height: 30px;
+
+}
+
+
+}
+
+
